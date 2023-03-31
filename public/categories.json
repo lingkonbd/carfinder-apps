@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "6410c4acc1cd0e4b68eb7b57",
+    "picture": "http://emon.lingkon.net/car-finder/categories/mercedes-benz.svg",
+    "name": "Mercedes-Benz"
+  },
+  {
+    "_id": "6410c4ac051b1e115eee41b6",
+    "picture": "http://emon.lingkon.net/car-finder/categories/bmw.svg",
+    "name": "BMW"
+  },
+  {
+    "_id": "6410c4aca8c8a800d76eb333",
+    "picture": "http://emon.lingkon.net/car-finder/categories/toyota.svg",
+    "name": "toyota"
+  },
+  {
+    "_id": "6410c4acd3c3f9d4c1292197",
+    "picture": "http://emon.lingkon.net/car-finder/categories/audi.svg",
+    "name": "Audi"
+  }
+]

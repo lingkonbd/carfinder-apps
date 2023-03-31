@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Sora", sans-serif;
+  }
+}
+
+.header {
+  @apply border-b border-[#dfe2e1] border-solid;
+}
+.navbar__menu {
+  @apply flex flex-wrap items-center justify-between lg:flex-nowrap lg:justify-start;
+}
+.navbar-brand {
+  @apply w-20;
+}
+.navbar-toggler {
+  @apply p-2 lg:hidden;
+}
+.navbar-collapse {
+  @apply lg:flex basis-auto items-center flex-grow hidden transition-all duration-300 ease-out;
+}
+.navbar-collapsed {
+  @apply basis-full grow items-center transition-all duration-300 ease-out;
+}
+.navbar__nav {
+  @apply flex flex-col lg:flex-row ml-auto items-center;
+}
+.nav-link {
+  @apply px-5 lg:py-10 py-4 text-[#313131] text-lg font-normal rounded-sm hover:text-[#E91B25] block lg:inline-block relative
+    before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[3px] before:bg-[#E91B25] hover:before:w-full before:ease-out before:duration-300 before:transition-all;
+}
+
+.navbar-nav li div {
+  @apply lg:inline-flex items-center lg:pl-3 block pl-0 text-center;
+}
+
+.signup__form {
+  @apply lg:w-2/6 w-full mx-auto p-10 shadow-xl;
+}
+
+.hero__area {
+  @apply bg-[rgba(31,27,45)] py-16 bg-no-repeat bg-cover;
+}
+.row {
+  @apply flex flex-wrap;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+}
+.title__before {
+  @apply relative z-[1] before:absolute before:left-0 before:top-1/2 before:w-full before:h-[3px] before:bg-[#FAFAFC] before:z-[-1]
+    before:translate-y-[-50%];
+}
+.user__meta {
+  @apply flex items-center justify-between;
+}
+.avater {
+  @apply inline-flex items-center w-full max-w-[60%] relative;
+}
+.post-date {
+  @apply inline-flex items-center;
+}
+
+.vehicle__propertie {
+  @apply border-l border-b border-[#eaeaea] border-solid px-4 py-3 flex items-center;
+}
+.vehicle__propertie div {
+  @apply ml-3;
+}
+.bg__drop {
+  @apply bg-white drop-shadow-[0_5px_9px_rgba(0,0,0,0.02)] rounded;
+}
+.input-disabled,
+.input[disabled] {
+  background: #ddd !important;
+  border: #ddd;
+  color: #333 !important;
+}
