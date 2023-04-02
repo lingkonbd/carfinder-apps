@@ -1,8 +1,8 @@
-# Project Name : Car Showroom
+# Project Name : Car Finder
 
 # Live Website
 
-Live Website[https://car-showroom-520ff.web.app/](https://car-showroom-520ff.web.app/)
+Live Website[https://carfinder.netlify.app/](https://carfinder.netlify.app/)
 
 
 adminEmail: <admin@gmail.com>
@@ -14,7 +14,7 @@ sellerPassword: <seller@gmail.com>
 buyerEmail: <buyer@gmail.com>
 buyerPassword: <buyer@gmail.com>
 
-https://car-showroom-520ff.web.app/
+https://carfinder.netlify.app/
 
 # What is works in this project
 
@@ -33,7 +33,7 @@ https://car-showroom-520ff.web.app/
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [https://car-showroom-520ff.web.app/](https://car-showroom-520ff.web.app/) to view it in your browser.
+Open [https://carfinder.netlify.app/](https://carfinder.netlify.app/) to view it in your browser.
 
 # carfinder
 # carfinder-apps
